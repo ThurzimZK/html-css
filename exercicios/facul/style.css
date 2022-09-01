@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+.especial::before{
+    content: '⇒ '; 
+}
+.especial::after{
+    content: ' ⇐';   
+}
+h1.principal{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 128, 0); 
+}
